@@ -8,9 +8,3 @@ public class Ranking{
     public int id_minijuego {get;set;}
         
 }
-
-//   `id_ranking` int NOT NULL AUTO_INCREMENT,
-//   `puntaje` int NOT NULL,
-//   `fecha_puntaje` date NOT NULL,
-//   `id_usuario` int NOT NULL,
-//   `id_minijuego` int NOT NULL,

@@ -62,3 +62,4 @@ C:\Users\bruno\OneDrive\Documentos\api\apiOXXO\obj\Debug\net9.0\refint\apiOXXO.d
 C:\Users\bruno\OneDrive\Documentos\api\apiOXXO\obj\Debug\net9.0\apiOXXO.pdb
 C:\Users\bruno\OneDrive\Documentos\api\apiOXXO\obj\Debug\net9.0\apiOXXO.genruntimeconfig.cache
 C:\Users\bruno\OneDrive\Documentos\api\apiOXXO\obj\Debug\net9.0\ref\apiOXXO.dll
+C:\Users\bruno\OneDrive\Documentos\api\apiOXXO\obj\Debug\net9.0\apiOXXO.sourcelink.json

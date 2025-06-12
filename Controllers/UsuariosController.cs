@@ -13,7 +13,7 @@ public class UsuariosController : ControllerBase
     [HttpGet("CheckUsrPass/{Usr_ID}/{Usr_Pass}")]
     public Usuarios CheckUsrId_Password(string Usr_ID, string Usr_Pass)
     {
-        string ConnectionString = "Server=127.0.0.1;Port=3306;Database=reto_oxxo;Uid=root;";
+        string ConnectionString = "Server=mysql-370e2f78-tec-f8a4.b.aivencloud.com;Port=27566;Database=reto_oxxo;Uid=avnadmin;Password=AVNS_2M0v78xMV-H3ZdoHrdY;SslMode=Required;";
         Usuarios usuario = new Usuarios();
         MySqlConnection conexion = new MySqlConnection(ConnectionString);
         conexion.Open();
@@ -45,7 +45,7 @@ public class UsuariosController : ControllerBase
     public List<Usuarios> GetTopExperiencia()
     {
         List<Usuarios> usuarios = new List<Usuarios>();
-        string ConnectionString = "Server=127.0.0.1;Port=3306;Database=reto_oxxo;Uid=root;";
+        string ConnectionString = "Server=mysql-370e2f78-tec-f8a4.b.aivencloud.com;Port=27566;Database=reto_oxxo;Uid=avnadmin;Password=AVNS_2M0v78xMV-H3ZdoHrdY;SslMode=Required;";
 
         MySqlConnection conexion = new MySqlConnection(ConnectionString);
         conexion.Open();
@@ -80,7 +80,7 @@ public class UsuariosController : ControllerBase
     [HttpPut("UpdateExperiencia/{id_usuario}/{experiencia}")]
     public void UpdateExperiencia(int id_usuario, int experiencia)
     {
-        string ConnectionString = "Server=127.0.0.1;Port=3306;Database=reto_oxxo;Uid=root;";
+        string ConnectionString = "Server=mysql-370e2f78-tec-f8a4.b.aivencloud.com;Port=27566;Database=reto_oxxo;Uid=avnadmin;Password=AVNS_2M0v78xMV-H3ZdoHrdY;SslMode=Required;";
         MySqlConnection conexion = new MySqlConnection(ConnectionString);
         conexion.Open();
 
@@ -96,7 +96,7 @@ public class UsuariosController : ControllerBase
     [HttpPut("UpdatePuntos/{id_usuario}/{puntos}")]
     public void UpdatePuntos(int id_usuario, int puntos)
     {
-        string ConnectionString = "Server=127.0.0.1;Port=3306;Database=reto_oxxo;Uid=root;";
+        string ConnectionString = "Server=mysql-370e2f78-tec-f8a4.b.aivencloud.com;Port=27566;Database=reto_oxxo;Uid=avnadmin;Password=AVNS_2M0v78xMV-H3ZdoHrdY;SslMode=Required;";
         MySqlConnection conexion = new MySqlConnection(ConnectionString);
         conexion.Open();
 
@@ -114,7 +114,7 @@ public class UsuariosController : ControllerBase
     [HttpPut("Updatemonedas/{id_usuario}/{monedas}")]
     public void UpdateMonedas(int id_usuario, int monedas)
     {
-        string ConnectionString = "Server=127.0.0.1;Port=3306;Database=reto_oxxo;Uid=root";
+        string ConnectionString = "Server=mysql-370e2f78-tec-f8a4.b.aivencloud.com;Port=27566;Database=reto_oxxo;Uid=avnadmin;Password=AVNS_2M0v78xMV-H3ZdoHrdY;SslMode=Required;";
         MySqlConnection conexion = new MySqlConnection(ConnectionString);
         conexion.Open();
 

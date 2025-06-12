@@ -14,7 +14,7 @@ public class RankingController : ControllerBase
     {
         Ranking first = new Ranking();
 
-        string ConnectionString = "Server=127.0.0.1;Port=3306;Database=reto_oxxo;Uid=root";
+        string ConnectionString = "Server=mysql-370e2f78-tec-f8a4.b.aivencloud.com;Port=27566;Database=reto_oxxo;Uid=avnadmin;Password=AVNS_2M0v78xMV-H3ZdoHrdY;SslMode=Required;";
 
         MySqlConnection conexion = new MySqlConnection(ConnectionString);
 
@@ -40,7 +40,7 @@ public class RankingController : ControllerBase
     [HttpPost("PostRanking")]
     public void PostRanking([FromBody] Ranking newRanking)
     {
-        string ConnectionString = "Server=127.0.0.1;Port=3306;Database=reto_oxxo;Uid=root";
+        string ConnectionString = "Server=mysql-370e2f78-tec-f8a4.b.aivencloud.com;Port=27566;Database=reto_oxxo;Uid=avnadmin;Password=AVNS_2M0v78xMV-H3ZdoHrdY;SslMode=Required;";
         MySqlConnection conexion = new MySqlConnection(ConnectionString);
         conexion.Open();
 

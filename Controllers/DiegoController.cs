@@ -13,7 +13,7 @@ namespace apiOXXO.Controllers
     [Route("[controller]")]
     public class DiegoSaldanaController : ControllerBase
     {
-        public string ConnectionString = "Server=127.0.0.1;Port=3306;Database=reto_oxxo;Uid=root;";
+        string ConnectionString = "Server=mysql-370e2f78-tec-f8a4.b.aivencloud.com;Port=27566;Database=reto_oxxo;Uid=avnadmin;Password=AVNS_2M0v78xMV-H3ZdoHrdY;SslMode=Required;";
 
 
         [HttpGet("getHorarios")] // ENDPOINT GET: Los horarios que el lider de tienda tiene que manejar
